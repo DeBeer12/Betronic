@@ -1,0 +1,98 @@
+@font-face{
+  font-family: betronic-L;
+  src: url("../232MKSD_winTT\232MKSD_winTT\232MKL__.TTF");
+  
+}
+
+body {
+  background-color: salmon;
+  font-family: betronic_L;
+}
+
+.home-container-wrapper {
+  background-color: cyan;
+  display: : center;
+}
+
+.vbox-container {
+  /*Hbox*/
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  background-color: lime;
+}
+
+#Logo {
+  width: 25%;
+  height: 75%;
+}
+.title-container{
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+}
+
+.hbox-container {
+/*Hbox*/
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  justify-content: space-around;
+  background-color: orange;
+}
+
+.clock-container {
+/*Vbox*/
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+
+  width: 300px;
+  height: 300px;
+
+  background-color: white;
+}
+
+.image-container {
+  background-color: navy;
+}
+
+.nandw-container {
+/*Hbox*/
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  justify-content: space-around;
+
+  background-color: darkgrey
+}

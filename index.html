@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./css/index_style.css">
+  <title>Betronic_Screen</title>
+</head>
+<body>
+  <div class="home-container-wrapper">
+    <p>adskfj</p>
+    <div class="vbox-container">
+      <div class="title-containter">
+      <img src="./img/Betronic_Logo3_print.jpg" alt="Logo Betronic" id="Logo">
+      <h1>WELCOME @BETRONIC</h1>
+    </div>
+      <div class="hbox-container">
+        <div class="clock-container">
+          <p id="clockA">clock</p>
+          <button onclick="change()">CLICK</button>
+        </div>
+        <div class="image-container">
+          <p>Plaatje</p>
+        </div>
+        <div class="nandw-container">
+          <p>news</p>
+        </div>
+      </div>
+      <p>dsafSS</p>
+    </div>
+  </div>
+
+<script>
+function change() {
+  document.getElementById("clockA").innnerHTML = "PIZZA";
+}
+
+</script>
+<script>
+function clock() {
+var currentTime = new Date.now();
+var currentHours = currentTime.getHours();
+var currentMinutes = currentTime.getMinutes();
+var currentSeconds = currentTime.getSeconds();
+
+var currentTimeString = currentHours + " : " currentMinutes + " : " currentSeconds;
+
+document.getElementById("clockA").innnerhtml = "HOI";
+}
+window.onload = clock(); setInterval('updateClock', 1000);
+</script>
+</body>
+</html>

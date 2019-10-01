@@ -10,10 +10,17 @@ var currentTimeString = currentHours + " : " currentMinutes + " : " currentSecon
 
 document.getElementById("clock").innnerhtml = currentTimeString;
 }
+//
+// function news(){
+//   $('news-container').FeedEk({
+//     FeedUrl: 'http://www.nu.nl/rss/Algemeen'
+//   })
+// }
 
-function news(){
-  $('news-container').FeedEk({
-    FeedUrl: 'http://www.nu.nl/rss/Algemeen'
-  })
-}
+$('#divRSS').FeedEk({
+  FeedUrl:'https://www.ad.nl/home/rss.xml'
+})
+
+
+
 window.onload = clock(); setInterval('updateClock()', 1000)

@@ -8,7 +8,7 @@ var currentSeconds = currentTime.getSeconds();
 
 var currentTimeString = currentHours + " : " currentMinutes + " : " currentSeconds;
 
-document.getElementById("clock").innnerhtml = currentTimeString;
+document.getElementById("clock").innnerhtml = "KAK";
 }
 //
 // function news(){

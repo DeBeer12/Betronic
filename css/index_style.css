@@ -1,16 +1,17 @@
 @font-face{
-  font-family: betronic_L;
-  src: url("../232MKSD_winTT\232MKSD_winTT\232MKL__.TTF");
+  font-family: betronicl;
+  src: url("./232MKSDRoundLight.TTF");
 
 }
 
 body {
   background-color: salmon;
-  font-family: betronic_L;
+  font-family: betronicl;
 }
 
 .home-container-wrapper {
   background-color: cyan;
+  font-family: betronic-L;
   display: : center;
 }
 

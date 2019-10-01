@@ -7,20 +7,19 @@
   <title>Betronic_Screen</title>
   <script type="text/javascript" src="rss_reader/jquery-1.9.1.min.js"></script>
   <script type="text/javascript" src="rss_reader/FeedEk.js"></script>
-  <script src="scripts/index_script.js"></script>
 </head>
-<body>
+<body onload="test()">
   <div class="home-container-wrapper">
     <p>adskfj</p>
     <div class="vbox-container">
       <div class="title-containter">
       <img src="./img/Betronic_Logo3_print.jpg" alt="Logo Betronic" id="Logo">
-      <h1>WELCOME @BETRONIC</h1>
+      <h1 id="test">WELCOME @BETRONIC</h1>
     </div>
       <div class="hbox-container">
         <div class="clock-container">
-          <p id="clockA">clock</p>
-          <button onclick="change()">CLICK</button>
+          <p id="clock">clock</p>
+          <button onclick="test()">CLICK</button>
         </div>
         <div class="image-container">
           <p>Plaatje</p>
@@ -37,5 +36,8 @@
       <p>dsafSS</p>
     </div>
   </div>
+
+  <!--scripts--->
+  <script src="scripts\index_script.js"></script>
 </body>
 </html>
